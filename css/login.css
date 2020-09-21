@@ -3,6 +3,9 @@ body{
     padding: 0px;
     height: 100%;
     width: 100%;
+    background-image: url(../images/backdrop.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
@@ -13,12 +16,13 @@ body{
     margin-top: -50px;
 }
 .form_container{
-    background: orangered;
+    background:rgba(0, 0, 0, .7);
     margin:10px auto;
     width: 400px;
     height: fit-content;
     padding: 30px;
     margin-top: -70px;
+    color: WHITE;
     
 }
 
