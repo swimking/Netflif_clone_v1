@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.main_section{
+height: 100vh;
+background-image: url("../images/backdrop.jpg");
+background-position: center;
+background-size: cover;
+}
+.top_header{
+    display: flex;
+    flex-direction: row;
+}
+.netflix_logo{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: -80px;
+    position: relative;
+}
+.logo_container{
+    width: 80%;
+    
+}
+.signin_button_container{
+    padding: 10px;
+    margin-top: 20px;
+}
+.signin_button{
+    background:#db0510;
+    padding: 7px 17px;
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    position: relative;
+}
+.image_container{
+    margin-top: 50px;
+
+}
+.text_container{
+    padding: 20px;
+    text-align: center;
+}
+.pgf1{
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+.pgf2{
+    font-size: 1.625rem;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.pgf3{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
+    color: white;
+    position: relative;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.get-started-form{
+    padding: 10px;
+}
+
+.get-started-form input{
+    padding: 10px;
+    width: 400px;
+    position: relative;
+}
+.get-started-form button{
+    padding: 12px;
+    width: 200px;
+    margin-left: -6px;
+    background:#db0510;
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    border: 0px;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 98.2vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:rgb(0,0,0,.6);
+}
+
+.red-pgf{
+    font-size: 20px;
+    color: red;
+}
+.blue-pgf{
+    font-size: 20px;
+    color: blue;
+}
+
+#big-pgf{
+    font-size: 30px;
+    color: orange;
+}

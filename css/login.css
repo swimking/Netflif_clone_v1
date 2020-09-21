@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.logo-login{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: -50px;
+}
+.form_container{
+    background: orangered;
+    margin:10px auto;
+    width: 400px;
+    height: fit-content;
+    padding: 30px;
+    margin-top: -70px;
+    
+}
+
+.sign_in_h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.inputs_container{
+    margin-left: 50px;
+}
+.inputs, .signin_button, .sign_in_h1{
+    display: block;
+    margin: 13px auto;
+    margin-left: -1px;
+    
+}
+.inputs{
+    width: 250px;
+    padding: 20px;
+    background-color: #333;
+    border: 0px;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+.h1_container{
+    margin-left: 30px;
+    
+    padding: 10px;
+}
+.h1_container h1{
+    margin-left: 8px;
+}
+.signin_button{
+    width: 290px;
+    padding: 15px;
+    background-color: #db0510;
+    border: 0px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 40px;
+}
+.rememberme-and-needhelp-container{
+    display: flex;
+    flex-direction: row;
+}
+.rememberme-container{
+    width: 200px;
+    padding: 10px;
+}
+.rememberme-container label{
+    color: rgb(184, 184, 184);
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.need-help-container{
+    padding: 10px;
+}
+.need-help-container a{
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+    font-size: 12px;
+}
+.text{
+    color: rgb(184, 184, 184);
+    font-size: 12px;
+    text-decoration: none;
+}
+.new-to-netflix{
+    display: flex;
+    flex-direction: row;
+}
+.learn_more{
+    /* margin-bottom: -50px; */
+}
+.signup_now{
+    margin-top: 13px;
+}
